@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F38C7D80225E46F8005AF762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F38C7D7F225E46F8005AF762 /* AppDelegate.m */; };
+		F38C7D83225E46F8005AF762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38C7D82225E46F8005AF762 /* ViewController.m */; };
+		F38C7D86225E46F8005AF762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38C7D84225E46F8005AF762 /* Main.storyboard */; };
+		F38C7D89225E46F8005AF762 /* Regeneron_PSP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F38C7D87225E46F8005AF762 /* Regeneron_PSP.xcdatamodeld */; };
+		F38C7D8B225E46F9005AF762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38C7D8A225E46F9005AF762 /* Assets.xcassets */; };
+		F38C7D8E225E46F9005AF762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38C7D8C225E46F9005AF762 /* LaunchScreen.storyboard */; };
+		F38C7D91225E46F9005AF762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F38C7D90225E46F9005AF762 /* main.m */; };
+		F38C7D9B225E46F9005AF762 /* Regeneron_PSPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F38C7D9A225E46F9005AF762 /* Regeneron_PSPTests.m */; };
+		F38C7DA6225E46F9005AF762 /* Regeneron_PSPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F38C7DA5225E46F9005AF762 /* Regeneron_PSPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F38C7D97225E46F9005AF762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F38C7D73225E46F8005AF762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38C7D7A225E46F8005AF762;
+			remoteInfo = "Regeneron-PSP";
+		};
+		F38C7DA2225E46F9005AF762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F38C7D73225E46F8005AF762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38C7D7A225E46F8005AF762;
+			remoteInfo = "Regeneron-PSP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F38C7D7B225E46F8005AF762 /* Regeneron-PSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Regeneron-PSP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38C7D7E225E46F8005AF762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F38C7D7F225E46F8005AF762 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F38C7D81225E46F8005AF762 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F38C7D82225E46F8005AF762 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F38C7D85225E46F8005AF762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F38C7D88225E46F8005AF762 /* Regeneron_PSP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Regeneron_PSP.xcdatamodel; sourceTree = "<group>"; };
+		F38C7D8A225E46F9005AF762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F38C7D8D225E46F9005AF762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F38C7D8F225E46F9005AF762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38C7D90225E46F9005AF762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F38C7D96225E46F9005AF762 /* Regeneron-PSPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Regeneron-PSPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38C7D9A225E46F9005AF762 /* Regeneron_PSPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Regeneron_PSPTests.m; sourceTree = "<group>"; };
+		F38C7D9C225E46F9005AF762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38C7DA1225E46F9005AF762 /* Regeneron-PSPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Regeneron-PSPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38C7DA5225E46F9005AF762 /* Regeneron_PSPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Regeneron_PSPUITests.m; sourceTree = "<group>"; };
+		F38C7DA7225E46F9005AF762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F38C7D78225E46F8005AF762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38C7D93225E46F9005AF762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38C7D9E225E46F9005AF762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F38C7D72225E46F8005AF762 = {
+			isa = PBXGroup;
+			children = (
+				F38C7D7D225E46F8005AF762 /* Regeneron-PSP */,
+				F38C7D99225E46F9005AF762 /* Regeneron-PSPTests */,
+				F38C7DA4225E46F9005AF762 /* Regeneron-PSPUITests */,
+				F38C7D7C225E46F8005AF762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F38C7D7C225E46F8005AF762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F38C7D7B225E46F8005AF762 /* Regeneron-PSP.app */,
+				F38C7D96225E46F9005AF762 /* Regeneron-PSPTests.xctest */,
+				F38C7DA1225E46F9005AF762 /* Regeneron-PSPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F38C7D7D225E46F8005AF762 /* Regeneron-PSP */ = {
+			isa = PBXGroup;
+			children = (
+				F38C7D7E225E46F8005AF762 /* AppDelegate.h */,
+				F38C7D7F225E46F8005AF762 /* AppDelegate.m */,
+				F38C7D81225E46F8005AF762 /* ViewController.h */,
+				F38C7D82225E46F8005AF762 /* ViewController.m */,
+				F38C7D84225E46F8005AF762 /* Main.storyboard */,
+				F38C7D8A225E46F9005AF762 /* Assets.xcassets */,
+				F38C7D8C225E46F9005AF762 /* LaunchScreen.storyboard */,
+				F38C7D8F225E46F9005AF762 /* Info.plist */,
+				F38C7D90225E46F9005AF762 /* main.m */,
+				F38C7D87225E46F8005AF762 /* Regeneron_PSP.xcdatamodeld */,
+			);
+			path = "Regeneron-PSP";
+			sourceTree = "<group>";
+		};
+		F38C7D99225E46F9005AF762 /* Regeneron-PSPTests */ = {
+			isa = PBXGroup;
+			children = (
+				F38C7D9A225E46F9005AF762 /* Regeneron_PSPTests.m */,
+				F38C7D9C225E46F9005AF762 /* Info.plist */,
+			);
+			path = "Regeneron-PSPTests";
+			sourceTree = "<group>";
+		};
+		F38C7DA4225E46F9005AF762 /* Regeneron-PSPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F38C7DA5225E46F9005AF762 /* Regeneron_PSPUITests.m */,
+				F38C7DA7225E46F9005AF762 /* Info.plist */,
+			);
+			path = "Regeneron-PSPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F38C7D7A225E46F8005AF762 /* Regeneron-PSP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38C7DAA225E46F9005AF762 /* Build configuration list for PBXNativeTarget "Regeneron-PSP" */;
+			buildPhases = (
+				F38C7D77225E46F8005AF762 /* Sources */,
+				F38C7D78225E46F8005AF762 /* Frameworks */,
+				F38C7D79225E46F8005AF762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Regeneron-PSP";
+			productName = "Regeneron-PSP";
+			productReference = F38C7D7B225E46F8005AF762 /* Regeneron-PSP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F38C7D95225E46F9005AF762 /* Regeneron-PSPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38C7DAD225E46F9005AF762 /* Build configuration list for PBXNativeTarget "Regeneron-PSPTests" */;
+			buildPhases = (
+				F38C7D92225E46F9005AF762 /* Sources */,
+				F38C7D93225E46F9005AF762 /* Frameworks */,
+				F38C7D94225E46F9005AF762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38C7D98225E46F9005AF762 /* PBXTargetDependency */,
+			);
+			name = "Regeneron-PSPTests";
+			productName = "Regeneron-PSPTests";
+			productReference = F38C7D96225E46F9005AF762 /* Regeneron-PSPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F38C7DA0225E46F9005AF762 /* Regeneron-PSPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38C7DB0225E46F9005AF762 /* Build configuration list for PBXNativeTarget "Regeneron-PSPUITests" */;
+			buildPhases = (
+				F38C7D9D225E46F9005AF762 /* Sources */,
+				F38C7D9E225E46F9005AF762 /* Frameworks */,
+				F38C7D9F225E46F9005AF762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38C7DA3225E46F9005AF762 /* PBXTargetDependency */,
+			);
+			name = "Regeneron-PSPUITests";
+			productName = "Regeneron-PSPUITests";
+			productReference = F38C7DA1225E46F9005AF762 /* Regeneron-PSPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F38C7D73225E46F8005AF762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Siju Satheesachandran";
+				TargetAttributes = {
+					F38C7D7A225E46F8005AF762 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F38C7D95225E46F9005AF762 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F38C7D7A225E46F8005AF762;
+					};
+					F38C7DA0225E46F9005AF762 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F38C7D7A225E46F8005AF762;
+					};
+				};
+			};
+			buildConfigurationList = F38C7D76225E46F8005AF762 /* Build configuration list for PBXProject "Regeneron-PSP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F38C7D72225E46F8005AF762;
+			productRefGroup = F38C7D7C225E46F8005AF762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F38C7D7A225E46F8005AF762 /* Regeneron-PSP */,
+				F38C7D95225E46F9005AF762 /* Regeneron-PSPTests */,
+				F38C7DA0225E46F9005AF762 /* Regeneron-PSPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F38C7D79225E46F8005AF762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38C7D8E225E46F9005AF762 /* LaunchScreen.storyboard in Resources */,
+				F38C7D8B225E46F9005AF762 /* Assets.xcassets in Resources */,
+				F38C7D86225E46F8005AF762 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38C7D94225E46F9005AF762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38C7D9F225E46F9005AF762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F38C7D77225E46F8005AF762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38C7D83225E46F8005AF762 /* ViewController.m in Sources */,
+				F38C7D89225E46F8005AF762 /* Regeneron_PSP.xcdatamodeld in Sources */,
+				F38C7D91225E46F9005AF762 /* main.m in Sources */,
+				F38C7D80225E46F8005AF762 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38C7D92225E46F9005AF762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38C7D9B225E46F9005AF762 /* Regeneron_PSPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38C7D9D225E46F9005AF762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38C7DA6225E46F9005AF762 /* Regeneron_PSPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F38C7D98225E46F9005AF762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38C7D7A225E46F8005AF762 /* Regeneron-PSP */;
+			targetProxy = F38C7D97225E46F9005AF762 /* PBXContainerItemProxy */;
+		};
+		F38C7DA3225E46F9005AF762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38C7D7A225E46F8005AF762 /* Regeneron-PSP */;
+			targetProxy = F38C7DA2225E46F9005AF762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F38C7D84225E46F8005AF762 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38C7D85225E46F8005AF762 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F38C7D8C225E46F9005AF762 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38C7D8D225E46F9005AF762 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F38C7DA8225E46F9005AF762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F38C7DA9225E46F9005AF762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F38C7DAB225E46F9005AF762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Regeneron-PSP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSApp.Regeneron-PSP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F38C7DAC225E46F9005AF762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Regeneron-PSP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSApp.Regeneron-PSP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F38C7DAE225E46F9005AF762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Regeneron-PSPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSApp.Regeneron-PSPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Regeneron-PSP.app/Regeneron-PSP";
+			};
+			name = Debug;
+		};
+		F38C7DAF225E46F9005AF762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Regeneron-PSPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSApp.Regeneron-PSPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Regeneron-PSP.app/Regeneron-PSP";
+			};
+			name = Release;
+		};
+		F38C7DB1225E46F9005AF762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Regeneron-PSPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSApp.Regeneron-PSPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Regeneron-PSP";
+			};
+			name = Debug;
+		};
+		F38C7DB2225E46F9005AF762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Regeneron-PSPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSApp.Regeneron-PSPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Regeneron-PSP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F38C7D76225E46F8005AF762 /* Build configuration list for PBXProject "Regeneron-PSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38C7DA8225E46F9005AF762 /* Debug */,
+				F38C7DA9225E46F9005AF762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38C7DAA225E46F9005AF762 /* Build configuration list for PBXNativeTarget "Regeneron-PSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38C7DAB225E46F9005AF762 /* Debug */,
+				F38C7DAC225E46F9005AF762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38C7DAD225E46F9005AF762 /* Build configuration list for PBXNativeTarget "Regeneron-PSPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38C7DAE225E46F9005AF762 /* Debug */,
+				F38C7DAF225E46F9005AF762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38C7DB0225E46F9005AF762 /* Build configuration list for PBXNativeTarget "Regeneron-PSPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38C7DB1225E46F9005AF762 /* Debug */,
+				F38C7DB2225E46F9005AF762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F38C7D87225E46F8005AF762 /* Regeneron_PSP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F38C7D88225E46F8005AF762 /* Regeneron_PSP.xcdatamodel */,
+			);
+			currentVersion = F38C7D88225E46F8005AF762 /* Regeneron_PSP.xcdatamodel */;
+			path = Regeneron_PSP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F38C7D73225E46F8005AF762 /* Project object */;
+}
