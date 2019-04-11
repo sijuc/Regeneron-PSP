@@ -9,15 +9,10 @@ jobs:
 
     # Specify the Xcode version to use
     macos:
-      xcode: "10.1"
+      xcode: "10.1.0"
 
     steps:
       - checkout
-
-      # Install CocoaPods
-      - run:
-          name: Install CocoaPods
-          command: pod install
 
       # Build the app and run tests
       - run:
