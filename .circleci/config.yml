@@ -18,3 +18,8 @@ jobs:
           path: output
       - store_test_results:
           path: output/scan
+workflows:
+  version: 2
+  workflow:
+    jobs:
+    - build
