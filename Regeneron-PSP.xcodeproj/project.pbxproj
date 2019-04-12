@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F31DAC832260951000B7E4C6 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = F31DAC822260951000B7E4C6 /* Test.m */; };
 		F38C7D80225E46F8005AF762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F38C7D7F225E46F8005AF762 /* AppDelegate.m */; };
 		F38C7D83225E46F8005AF762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38C7D82225E46F8005AF762 /* ViewController.m */; };
 		F38C7D86225E46F8005AF762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38C7D84225E46F8005AF762 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F31DAC812260951000B7E4C6 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		F31DAC822260951000B7E4C6 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		F38C7D7B225E46F8005AF762 /* Regeneron-PSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Regeneron-PSP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38C7D7E225E46F8005AF762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F38C7D7F225E46F8005AF762 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				F38C7D8F225E46F9005AF762 /* Info.plist */,
 				F38C7D90225E46F9005AF762 /* main.m */,
 				F38C7D87225E46F8005AF762 /* Regeneron_PSP.xcdatamodeld */,
+				F31DAC812260951000B7E4C6 /* Test.h */,
+				F31DAC822260951000B7E4C6 /* Test.m */,
 			);
 			path = "Regeneron-PSP";
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31DAC832260951000B7E4C6 /* Test.m in Sources */,
 				F38C7D83225E46F8005AF762 /* ViewController.m in Sources */,
 				F38C7D89225E46F8005AF762 /* Regeneron_PSP.xcdatamodeld in Sources */,
 				F38C7D91225E46F9005AF762 /* main.m in Sources */,
